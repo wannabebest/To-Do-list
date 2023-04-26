@@ -27,6 +27,15 @@ list.addEventListener('click', function (ev) {
   }
 }, false);
 
+function changeToDark() {
+  let element = document.body;
+
+  element.classList.toggle("dark-mode");
+
+
+}
+
+
 // Create a new list item when clicking on the "Add" button
 function addElement() {
   let li = document.createElement("li");
@@ -53,10 +62,6 @@ function addElement() {
     }
   }
 }
-
-
-
-
 
 function clearThis() {
 
