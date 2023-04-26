@@ -135,7 +135,17 @@ input {
 }
 
 .dark-mode .header {
-  background-color: #888;
+  background-color: #000000;
+  color: #eee;
+}
+
+.dark-mode .addBttn {
+  background-color: #fdfcfc;
+  color: #050505;
+}
+
+.dark-mode ul {
+  background-color: #bbb;
 }
 
 
